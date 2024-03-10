@@ -219,6 +219,16 @@ body{
 .cards__paragraph{
     line-height: 1.8;
 }
+/* rooms*/
+.rooms {
+    position: relative;
+}
+.rooms .text {
+    border: 1px solid rgba (0, 0, 0, 0, );
+    border-top: none;
+    padding: 30px;
+}
+
 
 /* Technology */
 
