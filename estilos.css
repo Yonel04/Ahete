@@ -220,13 +220,31 @@ body{
     line-height: 1.8;
 }
 /* rooms*/
-.rooms {
-    position: relative;
+margin-bottom: 50px;
+  position: relative;
 }
-.rooms .text {
-    border: 1px solid rgba (0, 0, 0, 0, );
-    border-top: none;
-    padding: 30px;
+
+.room.wrapper2::after {
+  display: none;
+  top: 105%;
+  background-image: url("../image/line2.png");
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+}
+
+.room img {
+  width: 100%;
+  height: 100%;
+  margin-left: 20px;
+}
+
+.room h3 {
+  margin: 0;
+  padding: 0;
 }
 
 
